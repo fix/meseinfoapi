@@ -42,6 +42,10 @@ module.exports = function() {
 		}
 	}
 
+	App.Express.get("/", validateToken, function(req, res) {
+		res.send("OK");
+	});
+
 	App.Express.get("/:version/search/:terms", validateToken, function(req, res) {
 		res.header("Access-Control-Allow-Origin", "*");
   	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
