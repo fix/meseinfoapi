@@ -42,7 +42,7 @@ module.exports = function() {
 		}
 	}
 
-	App.Express.get("/", validateToken, function(req, res) {
+	App.Express.get("/", function(req, res) {
 		res.send("OK");
 	});
 
