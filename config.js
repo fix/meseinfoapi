@@ -5,7 +5,7 @@ module.exports = {
 	/**
 	 * Server port
 	 */
-	port: 8080,
+	port: 80,
 	/**
 	 * Versioned configuration
 	 */
@@ -13,7 +13,7 @@ module.exports = {
 		/**
 		 * Enable the caching module
 		 */
-		cacheEnabled: false,
+		cacheEnabled: true,
 		/**
 		 * How long to cache data in the cache module
 		 */
