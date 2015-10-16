@@ -24,6 +24,6 @@ module.exports = {
 		 * by adding the query string: `?secret_admin=boilerplatesRock`
 		 */
 		adminKeyEnabled: true,
-		adminKey: "boilerplatesRock"
+		adminKey: "donatio"
 	}
 };
